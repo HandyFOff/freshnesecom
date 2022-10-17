@@ -1,0 +1,36 @@
+.burger {
+    z-index: 10000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    opacity: 0;
+    pointer-events: none;
+
+    transition: all .3s ease;
+
+    &.active {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    &__content {
+        z-index: 1000;
+        background-color: #fff;
+        width: 50vw;
+        height: 100vh;
+
+        transform: translateX(-500px);
+        transition: all .4s ease-out;
+
+        &.active {
+            transform: scale(1);
+            transform:  translateY(0px);
+        }   
+    }
+
+}
+

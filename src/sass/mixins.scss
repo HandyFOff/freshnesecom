@@ -1,0 +1,12 @@
+@mixin link($fz, $c, $td) {
+    font-size: $fz;
+    color: $c;
+    text-decoration: $td;
+}
+
+@mixin button($fz, $p, $bg, $c) {
+    font-size: $fz;
+    padding: $p;
+    background: $bg;
+    color: $c;
+}
