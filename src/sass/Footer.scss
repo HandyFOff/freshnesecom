@@ -1,0 +1,106 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 45px;
+    gap: 40px;
+
+    &__links {
+        display: flex;
+        justify-content: space-between;
+
+        &>*{
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+    }
+
+    &__tags {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        &>h1 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            color: #151515;
+        }
+        &>.tags{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            &>.tag {
+                display: inline-block;
+                padding: 5px 10px;
+                background-color: #f5f5f5;
+                border-radius: 12px;
+    
+                &>span {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: #151515;
+                }
+            }
+        }
+    }
+
+    &__copyright {
+        &>span {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            color: #151515;
+        }
+    }
+}
+.links {
+
+    &__contacts {
+    }
+
+    &__title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #151515; 
+    }
+
+    &__item {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #6A983C;
+
+    }
+
+    &__socialmedia {
+    }
+
+    &__income {
+    }
+
+    &__account {
+    }
+}
+.socialmedia {
+}
+.income {
+}
+.account {
+}
+.tags {
+}
+.tag {
+
+}

@@ -2,12 +2,12 @@ import React from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 
-export default function Checkout() {
+export default function NotFoundPage() {
     return (
-        <div className='checkout'>
+        <>
             <Header/>
-            Checkout
+            not found page
             <Footer/>
-        </div>
+        </>
     )
 }

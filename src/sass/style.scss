@@ -1,13 +1,13 @@
 /* ======Миксины====== */
-@import 'mixins.scss';
+@import './lib/mixins.scss';
 /* ======/Миксины====== */
 
 /* ======Шрифты====== */
-@import 'fonts.scss';
+@import './lib/fonts.scss';
 /* ======/Шрифты====== */
 
 /* ======Переменные====== */
-@import 'variables.scss';
+@import './lib/variables.scss';
 
 $font: Roboto;
 $dfont: 16px;
@@ -15,8 +15,14 @@ $dfont: 16px;
 /* ======/Переменные====== */
 
 /* ======Обнуление====== */
-@import 'null.scss';
+@import './lib/null.scss';
 /* ======/Обнуление====== */
+
+/* ======Файлы страниц======= */
+@import "HomePage.scss";
+@import "Header.scss";
+@import "Footer.scss";
+/* ======/Файлы страниц======= */
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -25,5 +31,4 @@ body {
 .container {
     margin: 0 auto;
     max-width: $maxWidthContainer + px;
-    padding: 0 45px;
 }

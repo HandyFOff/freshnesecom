@@ -1,0 +1,200 @@
+hr {
+    margin: 0 auto;
+    max-width: 1170px;
+    height: 2px;
+    background-color: rgba(204, 204, 204, 0.1);
+}
+
+.header {
+
+    &__top {
+        padding: 16px 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media (max-width: $md3) {
+            display: none;
+        }
+    }
+
+    &__contacts {
+        &>span {
+            color: #6A983C ;
+        }
+        &>a {
+            color: #000;
+            transition: all .3s ease;
+            &:hover {
+                text-decoration: underline;
+                transform: scale(1.03);
+            }
+        }
+        display: flex;
+        gap: 33px;
+    }
+
+    &__nav {
+        display: flex;
+        gap: 33px;
+    }
+
+    &__main {
+        padding: 40px 45px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+
+        @media (max-width: $md2) {
+            padding: 20px 45px;
+        }
+    }
+
+    &__logo {
+    }
+
+    &__search {
+        display: flex;
+        align-items: center;
+        align-self: flex-end;
+        background-color: #f9f9f9;
+        border: #d1d1d1 solid 1px;
+        
+        @media (max-width: $md2) {
+            display: none;
+        }
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+}
+.container {
+}
+.nav {
+
+    &__item {
+        color: #6A983C ;
+    }
+}
+.img {
+}
+.search {
+    padding: 9px 16px;
+    border-radius: 12px;
+
+    &.mobile {
+        display: none;
+        margin: 0px 45px 30px 45px;
+    }
+
+    &__list {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 22px;
+
+        color: #151515;
+
+        &::after {
+            content: url('../assets/header/ic-chevron-down.png');
+            width: 15px;
+            height: 15px;
+            position: relative;
+            bottom: -4px;
+            right: -4px;
+        }
+
+    }
+
+    .sep {
+        width: 1px;
+        height: 20px;
+        background-color: #d1d1d1;
+        margin: 0 24px 0 24px;
+    }
+
+    &>input {
+        background-color: #f9f9f9;
+        width: 262px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+
+        color: #000;
+
+        &::placeholder {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+    
+            color: #A9A9A9;
+        }
+
+    }
+
+    &>img {
+        align-self: flex-end;
+    }
+
+    @media (max-width: $md2) {
+        &.mobile {
+            display: flex;
+        }
+    }
+}
+.info {
+
+    &__account {
+    }
+
+    &__basket {
+    }
+}
+
+.header {
+
+    &__menu {
+        padding: 16px 45px;
+        background-color: #f9f9f9;
+        &>.container {
+            
+        }
+    }
+}
+.menu {
+    display: flex;
+    gap: 40px;
+    white-space: nowrap;
+    @media (max-width: 1170px) {
+        overflow-x: scroll;
+    }
+
+    &__item {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: #151515;
+
+        &::after {
+            content: url('../assets/header/ic-chevron-down.png');
+            width: 15px;
+            height: 15px;
+            position: relative;
+            bottom: -4px;
+        }
+    }
+}
+.container {
+}
+
