@@ -38,6 +38,7 @@ export default function Header() {
                         <div className='search__list'>All categories</div>
                         <div class="sep"></div>
                         <input type="text" placeholder="Search Products, categories..."/>
+                        <div className='empty'></div>
                         <img alt='search icon' src={require('../assets/header/ic-actions-search.png')}/>
                 </div>
             </div>

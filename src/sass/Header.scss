@@ -48,9 +48,16 @@ hr {
         @media (max-width: $md2) {
             padding: 20px 45px;
         }
+        @media (max-width: $md3) {
+            padding: 20px 35px;  
+        }
     }
 
     &__logo {
+        &>a>img {
+            width: 160px;
+            height: 45px;
+        }
     }
 
     &__search {
@@ -69,6 +76,10 @@ hr {
         display: flex;
         align-items: center;
         gap: 40px;
+
+        @media (max-width: $md3) {
+            gap: 20px;
+        }
     }
 }
 .container {
@@ -79,15 +90,20 @@ hr {
         color: #6A983C ;
     }
 }
-.img {
-}
 .search {
     padding: 9px 16px;
     border-radius: 12px;
 
+    &>* {
+        white-space: nowrap;
+    }
+
     &.mobile {
         display: none;
         margin: 0px 45px 30px 45px;
+        @media (max-width: $md3) {
+            margin: 0px 35px 30px 35px;
+        }
     }
 
     &__list {
@@ -108,6 +124,9 @@ hr {
             right: -4px;
         }
 
+        @media (max-width: $md4) {
+            display: none;
+        }
     }
 
     .sep {
@@ -115,6 +134,14 @@ hr {
         height: 20px;
         background-color: #d1d1d1;
         margin: 0 24px 0 24px;
+
+        @media (max-width: $md4) {
+            display: none;
+        }
+    }
+
+    &>.empty {
+        flex: 1;
     }
 
     &>input {
@@ -141,10 +168,6 @@ hr {
 
     }
 
-    &>img {
-        align-self: flex-end;
-    }
-
     @media (max-width: $md2) {
         &.mobile {
             display: flex;
@@ -154,6 +177,7 @@ hr {
 .info {
 
     &__account {
+
     }
 
     &__basket {

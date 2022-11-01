@@ -13,6 +13,20 @@
             flex-direction: column;
             gap: 14px;
         }
+
+        @media (max-width: $md3) {
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            gap: 40px;
+
+            &>*{
+                align-items: center;
+            }
+        }
+
+        @media (max-width: 540px) {
+            grid-template-columns: 1fr;
+        }
     }
 
     &__tags {
@@ -72,6 +86,10 @@
         font-size: 18px;
         line-height: 27px;
         color: #151515; 
+
+        @media (max-width: $md3) {
+            font-size: 28px;
+        }
     }
 
     &__item {
@@ -81,6 +99,10 @@
         font-size: 14px;
         line-height: 19px;
         color: #6A983C;
+
+        @media (max-width: $md3) {
+            font-size: 16px;
+        }
 
     }
 
