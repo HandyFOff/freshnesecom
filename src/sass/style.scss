@@ -19,9 +19,9 @@ $dfont: 16px;
 /* ======/Обнуление====== */
 
 /* ======Файлы страниц======= */
-@import "./Homepage.scss";
-@import "./Header.scss";
-@import "./Footer.scss";
+@import "../sass/Homepage.scss";
+@import "../sass/Header.scss";
+@import "../sass/Footer.scss";
 /* ======/Файлы страниц======= */
 
 body {
