@@ -1,3 +1,7 @@
+/* ======Обнуление====== */
+@import './lib/null.scss';
+/* ======/Обнуление====== */
+
 /* ======Миксины====== */
 @import './lib/mixins.scss';
 /* ======/Миксины====== */
@@ -14,15 +18,12 @@ $dfont: 16px;
 
 /* ======/Переменные====== */
 
-/* ======Обнуление====== */
-@import './lib/null.scss';
-/* ======/Обнуление====== */
-
 /* ======Файлы страниц======= */
-@import 'homepage.scss';
-@import 'header.scss';
-@import 'footer.scss';
+@import './lib/homepage.scss';
+@import './lib/header.scss';
+@import './lib/footer.scss';
 /* ======/Файлы страниц======= */
+
 
 body {
     font-family: 'Open Sans', sans-serif;
