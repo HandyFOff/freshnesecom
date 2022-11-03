@@ -25,7 +25,7 @@ export default function Header() {
                     </div>
                     <div className='header__search search'>
                         <div className='search__list'>All categories</div>
-                        <div class="sep"></div>
+                        <div className="sep"></div>
                         <input type="text" placeholder="Search Products, categories..."/>
                         <img alt='search icon' src={require('../assets/header/ic-actions-search.png')}/>
                     </div>
@@ -36,7 +36,7 @@ export default function Header() {
                 </div>
                 <div className='header__search mobile search'>
                         <div className='search__list'>All categories</div>
-                        <div class="sep"></div>
+                        <div className="sep"></div>
                         <input type="text" placeholder="Search Products, categories..."/>
                         <div className='empty'></div>
                         <img alt='search icon' src={require('../assets/header/ic-actions-search.png')}/>

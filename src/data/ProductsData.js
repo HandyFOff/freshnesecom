@@ -59,4 +59,43 @@ export default [
             sale: "- 75 %",
         },
     ]},
+
+    {others: [
+        {
+            id: 1,
+            img: "../../../assets/homepage/cards/4.png",
+            title: "Product Title",
+            desc: "Space for a small product description ",
+            price: 3.45,
+            price_old: "",
+            sale: "- 12 %",
+        },
+        {
+            id: 2,
+            img: "../../../assets/homepage/cards/5.png",
+            title: "Product Title",
+            desc: "Space for a small product description ",
+            price: 0.99,
+            price_old: 2.99,
+            sale: "",
+        },
+        {
+            id: 3,
+            img: "../../../assets/homepage/cards/6.png",
+            title: "Product Title",
+            desc: "Space for a small product description ",
+            price: 6.55,
+            price_old: 10.34,
+            sale: "- 75 %",
+        },
+        {
+            id: 4,
+            img: "../../../assets/homepage/cards/6.png",
+            title: "Product Title",
+            desc: "Space for a small product description ",
+            price: 6.55,
+            price_old: 10.34,
+            sale: "- 75 %",
+        },
+    ]},
 ]
