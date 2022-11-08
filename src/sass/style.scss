@@ -18,12 +18,6 @@ $dfont: 16px;
 
 /* ======/Переменные====== */
 
-/* ======Файлы страниц======= */
-@import './lib/homepage.scss';
-@import './lib/header.scss';
-@import './lib/footer.scss';
-/* ======/Файлы страниц======= */
-
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -33,3 +27,13 @@ body {
     margin: 0 auto;
     max-width: $maxWidthContainer + px;
 }
+
+.empty {
+    flex: 1;
+}
+
+/* ======Файлы страниц======= */
+@import './lib/header.scss';
+@import './lib/footer.scss';
+@import './lib/homepage.scss';
+/* ======/Файлы страниц======= */

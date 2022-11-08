@@ -202,6 +202,10 @@ hr {
         overflow-x: scroll;
     }
 
+    &>.products__content {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
     &__item {
         font-family: 'Poppins';
         font-style: normal;

@@ -32,7 +32,7 @@ export default function Products() {
     return (
         <div className='container'>
             <section className='products'>
-                <div className='products__category category'>
+                <div className='products__category'>
                     <h1 className='products__menu_title-mobile products__menu_title'>Category menu</h1>
                     <div className='products__menu'>
                         <h1 className='products__menu_title'>Category menu</h1>

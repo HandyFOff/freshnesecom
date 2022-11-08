@@ -11,6 +11,7 @@ export default function ProductCard(props) {
                 <h1 className='products__card_title'>{props.title}</h1>
                 <span className='products__card_desc'>{props.desc}</span>
             </div>
+            <div className='empty'></div>
             <div className='products__card_purchase'>
                 <div className='products__card_price price'>
                     <span className='price__new'>{props.price} USD</span>
